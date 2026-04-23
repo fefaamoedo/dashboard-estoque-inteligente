@@ -1,86 +1,32 @@
-# Dashboard Inteligente de Estoque
+# Dashboard Inteligente de Estoque e Criticidade de Materiais
 
-Projeto analítico desenvolvido em Python com foco em **gestão de estoque**, **priorização de materiais** e **suporte à tomada de decisão** por meio de indicadores estratégicos e visualizações executivas.
+Sistema desenvolvido em Python e Streamlit para análise de estoque, cobertura e criticidade de materiais com base em dados simulados de consumo e parâmetros operacionais.
 
----
+## Objetivo
 
-## Visão Geral
+Apoiar decisões de planejamento, compras e gestão de estoque a partir de indicadores analíticos que mostram quais materiais exigem ação prioritária.
 
-Este projeto simula um cenário industrial onde diferentes materiais precisam ser monitorados com base em:
+## Funcionalidades
 
-- consumo histórico
-- estoque disponível
-- lead time
-- estoque de segurança
-- cobertura em dias
-- criticidade operacional
+- Leitura de bases simuladas de estoque e consumo
+- Cálculo de consumo médio mensal e diário
+- Cálculo de cobertura em dias
+- Comparação entre cobertura e lead time
+- Classificação dos materiais em Crítico, Atenção e Saudável
+- Dashboard interativo com filtro por categoria
+- Ranking dos materiais mais sensíveis
 
-A partir dessas variáveis, o sistema identifica riscos, prioriza materiais e gera relatórios gerenciais.
-
----
-
-## Objetivo de Negócio
-
-Reduzir risco de ruptura, melhorar previsibilidade operacional e apoiar decisões de compras e abastecimento.
-
----
-
-## Principais Entregas
-
-### Dashboard Executivo (PNG)
-
-Painel visual com:
-
-- indicadores principais
-- materiais críticos
-- cobertura média
-- ranking de prioridades
-- distribuição por status
-
-### Relatório Executivo (PDF)
-
-Documento gerencial contendo:
-
-- resumo analítico
-- principais achados
-- recomendações de ação
-- painel consolidado
-
-### Base Analítica (CSV)
-
-Tabela consolidada com métricas calculadas para todos os materiais.
-
----
-
-## Tecnologias Utilizadas
-
-- Python
-- Pandas
-- Matplotlib
-- FPDF2
-- CSV
-
----
-
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```text
 dashboard-estoque-inteligente/
 ├── data/
 │   ├── estoque_atual.csv
 │   └── consumo_historico.csv
-│
-├── outputs/
-│   ├── analise_estoque.csv
-│   ├── dashboard_estoque.png
-│   └── relatorio_estoque.pdf
-│
 ├── src/
 │   ├── preprocess.py
 │   ├── metrics.py
-│   ├── visualize.py
-│   ├── report.py
-│   └── main.py
-│
+│   └── app.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
