@@ -1,0 +1,11 @@
+material,categoria,estoque_atual,entrada_prevista,lead_time_dias,estoque_seguranca
+PEAD,Filmes Técnicos,4200,1200,18,2500
+PEBD,Stretch,2800,900,15,2200
+PEBDL,Silo Bolsa,5100,1500,22,3000
+ADITIVOS,Masterbatch,950,250,10,1200
+PP,Embalagem Rígida,3600,800,20,1800
+PET,Termoformagem,2400,700,17,1600
+EVA,Especialidades,1100,300,25,900
+PVC,Construção,3900,1000,30,2000
+ABS,Injeção,1750,400,21,1200
+PS,Descartáveis,2200,600,14,1400
