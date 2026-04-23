@@ -1,0 +1,10 @@
+import pandas as pd
+
+
+def carregar_bases(caminho_estoque: str, caminho_consumo: str):
+    estoque = pd.read_csv(caminho_estoque)
+    consumo = pd.read_csv(caminho_consumo)
+
+    consumo["data"] = pd.to_datetime(consumo["data"])
+
+    return estoque, consumo
