@@ -1,0 +1,70 @@
+data,material,categoria,consumo_mensal
+2025-01-01,PEAD,Filmes Técnicos,1800
+2025-02-01,PEAD,Filmes Técnicos,1900
+2025-03-01,PEAD,Filmes Técnicos,1850
+2025-04-01,PEAD,Filmes Técnicos,2000
+2025-05-01,PEAD,Filmes Técnicos,2100
+2025-06-01,PEAD,Filmes Técnicos,2200
+
+2025-01-01,PEBD,Stretch,2100
+2025-02-01,PEBD,Stretch,2200
+2025-03-01,PEBD,Stretch,2250
+2025-04-01,PEBD,Stretch,2350
+2025-05-01,PEBD,Stretch,2450
+2025-06-01,PEBD,Stretch,2550
+
+2025-01-01,PEBDL,Silo Bolsa,2600
+2025-02-01,PEBDL,Silo Bolsa,2700
+2025-03-01,PEBDL,Silo Bolsa,2800
+2025-04-01,PEBDL,Silo Bolsa,2950
+2025-05-01,PEBDL,Silo Bolsa,3100
+2025-06-01,PEBDL,Silo Bolsa,3250
+
+2025-01-01,ADITIVOS,Masterbatch,500
+2025-02-01,ADITIVOS,Masterbatch,540
+2025-03-01,ADITIVOS,Masterbatch,580
+2025-04-01,ADITIVOS,Masterbatch,620
+2025-05-01,ADITIVOS,Masterbatch,680
+2025-06-01,ADITIVOS,Masterbatch,740
+
+2025-01-01,PP,Embalagem Rígida,1300
+2025-02-01,PP,Embalagem Rígida,1380
+2025-03-01,PP,Embalagem Rígida,1420
+2025-04-01,PP,Embalagem Rígida,1490
+2025-05-01,PP,Embalagem Rígida,1540
+2025-06-01,PP,Embalagem Rígida,1610
+
+2025-01-01,PET,Termoformagem,1000
+2025-02-01,PET,Termoformagem,1080
+2025-03-01,PET,Termoformagem,1120
+2025-04-01,PET,Termoformagem,1190
+2025-05-01,PET,Termoformagem,1250
+2025-06-01,PET,Termoformagem,1320
+
+2025-01-01,EVA,Especialidades,350
+2025-02-01,EVA,Especialidades,380
+2025-03-01,EVA,Especialidades,420
+2025-04-01,EVA,Especialidades,470
+2025-05-01,EVA,Especialidades,510
+2025-06-01,EVA,Especialidades,560
+
+2025-01-01,PVC,Construção,1200
+2025-02-01,PVC,Construção,1280
+2025-03-01,PVC,Construção,1350
+2025-04-01,PVC,Construção,1420
+2025-05-01,PVC,Construção,1500
+2025-06-01,PVC,Construção,1580
+
+2025-01-01,ABS,Injeção,700
+2025-02-01,ABS,Injeção,760
+2025-03-01,ABS,Injeção,810
+2025-04-01,ABS,Injeção,860
+2025-05-01,ABS,Injeção,920
+2025-06-01,ABS,Injeção,980
+
+2025-01-01,PS,Descartáveis,900
+2025-02-01,PS,Descartáveis,960
+2025-03-01,PS,Descartáveis,1010
+2025-04-01,PS,Descartáveis,1080
+2025-05-01,PS,Descartáveis,1140
+2025-06-01,PS,Descartáveis,1210
